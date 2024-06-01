@@ -5,7 +5,6 @@
     import { SvelteLogo, RustLogo, TailwindLogo, BunLogo, TypescriptLogo } from '$lib/images';
     
     export let data: PageData;
-
 </script>
 
 <div class="p-4 mt-8">
@@ -63,11 +62,13 @@
         </div>
     </div>
 	{#each data.posts as post}
-		<div class="border border-neutral p-4">
-			<a href={`/posts/` + post.slug} class="title">{post.title}</a>
-			<p class="date">{formatDate(post.date)}</p>
-			<p class="description">{post.description}</p>
+    <a href={`/posts/` + post.slug} class="p-4">
+        <div class="border border-neutral">
+            <p class="">{formatDate(post.date)}</p>
+            <h1 class="text-xl font-bold">{post.title}</h1>
+            <p class="">{post.description}</p>
         </div>
+    </a>
 	{/each}
 </div>
 
@@ -83,6 +84,8 @@
     {#each data.repos as repo}
         <div class="border border-neutral p-4">
             <a href="/" class="title">{repo.name}</a>
+            <p class="">{repo.description}</p>
+            <p class="">{repo.language}</p>
         </div>
     {/each}
 </div>

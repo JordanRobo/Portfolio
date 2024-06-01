@@ -1,6 +1,6 @@
 ---
 title: Hello World
-description: Let me introduce myself and why I've decided to start writing these posts. My name is Jordan and I've decided to learn coding in the hopes of becoming a developer.
+description: Let me introduce myself and why I've decided to start writing these posts.
 date: '2024-05-31'
 categories:
   - sveltekit
