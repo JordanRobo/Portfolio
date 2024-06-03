@@ -14,13 +14,13 @@
 </div>
 <div class="grid grid-cols-3 border border-neutral divide-x divide-neutral text-accent">
     <div class="p-4">
-        <a href="https://github.com/JordanRobo" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
+        <a href="https://github.com/JordanRobo" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
             <GithubLogo class="mr-2 " />
             <span class="bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">@JordanRobo</span>
         </a>
     </div>
     <div class="p-4">
-        <a href="https://www.linkedin.com/in/jordancr/" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
+        <a href="https://www.linkedin.com/in/jordancr/" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
             <LinkedinLogo class="mr-2" />
             <span class="bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">@jordancr</span>
         </a>
@@ -52,6 +52,25 @@
         </a>
     </div>
 </div>
+
+<div class="p-4 mt-8 space-y-4">
+    <div class="flex justify-between">
+        <div><h2 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Working on</h2></div>
+        <div>
+            <a href="https://github.com/JordanRobo?tab=repositories" target="_blank" class="flex items-center group transition-all duration-300 ease-in-out text-accent/50 hover:text-accent">
+                <span class="bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">See all projects</span>
+            </a>
+        </div>
+    </div>
+    <a href={data.repos.html_url} class="p-4">
+        <div class="border border-neutral p-4 space-y-1">
+            <h1 class="text-xl font-bold">{data.repos.name}</h1>
+            <p class="pb-1">{data.repos.description}</p>
+            <div class="badge badge-outline badge-secondary">{data.repos.language}</div>
+        </div>
+    </a>
+</div>
+
 <div class="p-4 mt-8 space-y-4">
     <div class="flex justify-between">
         <div><h2 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Recent Posts</h2></div>
@@ -63,29 +82,11 @@
     </div>
 	{#each data.posts as post}
     <a href={`/posts/` + post.slug} class="p-4">
-        <div class="border border-neutral">
+        <div class="border border-neutral p-4 space-y-1">
             <p class="">{formatDate(post.date)}</p>
             <h1 class="text-xl font-bold">{post.title}</h1>
             <p class="">{post.description}</p>
         </div>
     </a>
 	{/each}
-</div>
-
-<div class="p-4 mt-8 space-y-4">
-    <div class="flex justify-between">
-        <div><h2 class="text-2xl font-bold underline underline-offset-8 decoration-primary">My Projects</h2></div>
-        <div>
-            <a href="/projects" class="flex items-center group transition-all duration-300 ease-in-out text-accent/50 hover:text-accent">
-                <span class="bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">See all projects</span>
-            </a>
-        </div>
-    </div>
-    {#each data.repos as repo}
-        <div class="border border-neutral p-4">
-            <a href="/" class="title">{repo.name}</a>
-            <p class="">{repo.description}</p>
-            <p class="">{repo.language}</p>
-        </div>
-    {/each}
 </div>
