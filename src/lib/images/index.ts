@@ -5,15 +5,10 @@ import TailwindLogo from './tailwind-logo.png';
 import TypescriptLogo from './TypeScript.png';
 import BunLogo from './bun.png';
 import Me from './headshot.jpeg';
-import AdobeIllustrator from './Adobe Illustrator.png';
-import AdobePhotoshop from './Adobe Photoshop.png';
-import AdobePremiere from './Adobe Premiere Pro.png';
-import AdobeAfterEffects from './After Effects.png';
 import Bash from './Bash.png';
 import CSS3 from './CSS3.png';
 import DigitalOcean from './Digital Ocean.png';
 import Docker from './Docker.png';
-import Figma from './Figma.png';
 import Git from './Git.png';
 import GitHub from './GitHub.png';
 import Javascript from './JavaScript.png';
@@ -39,15 +34,10 @@ export {
     TypescriptLogo, 
     BunLogo, 
     Me,
-    AdobeIllustrator,
-    AdobePhotoshop,
-    AdobePremiere,
-    AdobeAfterEffects,
     Bash,
     CSS3,
     DigitalOcean,
     Docker,
-    Figma,
     Git,
     GitHub,
     Javascript,

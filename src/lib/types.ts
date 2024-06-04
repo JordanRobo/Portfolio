@@ -1,4 +1,4 @@
-export type Categories = 'sveltekit' | 'svelte'
+export type Categories = 'personal' | 'svelte'
 
 export type Post = {
 	title: string

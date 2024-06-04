@@ -9,8 +9,8 @@
 
 <div class="p-4 mt-8">
     <h1 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Hey there, I'm <span class="text-secondary">Jordan!</span></h1>
-    <p class="mt-4">I am a budding Full Stack Developer with a strong foundation in both front-end and back-end technologies, ready to bring dynamic solutions to modern web challenges. With expertise in HTML, CSS, JavaScript, and a passion for creating seamless user experiences, I am transitioning my career towards the innovative world of software development.</p>
-    <p class="mt-4">As I pivot my career path, my diverse background in digital marketing, content creation, and team leadership provides a unique perspective to software development. This cross-functional expertise allows me to approach development projects with an end-user focus, ensuring that the software I help create is not only functional but also user-friendly and market-ready.</p>
+    <p class="mt-4">Welcome to my website! </p>
+    
 </div>
 <div class="grid grid-cols-3 border border-neutral divide-x divide-neutral text-accent">
     <div class="p-4">
@@ -33,7 +33,7 @@
     </div>
 </div>
 <div class="p-4 mt-8 space-y-4 flex items-center justify-between">
-    <div><h2 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Currently Using</h2></div>
+    <div><h2 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Current Stack</h2></div>
     <div class="flex flex-row space-x-4">
         <a href="https://www.typescriptlang.org/" target="_blank">
             <img src={TypescriptLogo} alt="Typescript" class="h-14 object-contain transition duration-300 ease-in-out saturate-0 hover:saturate-100" />
