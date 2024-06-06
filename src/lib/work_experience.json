@@ -1,0 +1,30 @@
+[
+    {
+        "company": "Freelance Work",
+        "position": "Developer",
+        "start_date": "Jan 2020",
+        "end_date": "Present",
+        "description": "Hacked into the Pentagon."
+    },
+    {
+        "company": "Ray White Preston & Northcote",
+        "position": "Head of Marketing",
+        "start_date": "Nov 2022",
+        "end_date": "Nov 2023",
+        "description": ""
+    },
+    {
+        "company": "Ines Wine Bar",
+        "position": "Bar Manager",
+        "start_date": "Mar 2022",
+        "end_date": "Nov 2022",
+        "description": ""
+    },
+    {
+        "company": "Food Focus",
+        "position": "Marketing Assistant",
+        "start_date": "Mar 2021",
+        "end_date": "Feb 2022",
+        "description": ""
+    }
+]

@@ -1,10 +1,10 @@
 ---
 title: What is the best CMS in 2024?
 description: My research into a suitable content management system replacement for Wordpress.
-date: '2024-06-05'
+date: '2024-06-06'
 categories:
   - personal
-published: false
+published: true
 ---
 
 # What is the best CMS in 2024?
@@ -107,7 +107,7 @@ Well the one I chose in the end was Ghost because of it's user friendly interfac
 
 My goal is to create a truly headless CMS that can be used to manage content for custom websites. A CMS that works for everyone involved in a website, the developer, the site admin and the site's visitors. So what do each of these people want from a website and by extension the CMS?
 
-![CMS Diagram](/home/jordan/Desktop/projects/Portfolio/src/posts/cms-diagram.png)
+![CMS Diagram](/images/cms-diagram.webp)
 
 Breaking this down we are able to find that what is important to everyone is:
 
@@ -122,7 +122,7 @@ Breaking this down we are able to find that what is important to everyone is:
 
 If we rank each of the Content Management Systems, as well as Wordpress, against the above criteria the system that caters to all this the best would be Wordpress. 
 
-![Comparisson](/home/jordan/Desktop/projects/Portfolio/src/posts/compare-diagram.png)
+![Comparisson](/images/compare-diagram.webp)
 
 No wonder that even after it's release in 2003 it's still one of the most popular CMS out there. 
 

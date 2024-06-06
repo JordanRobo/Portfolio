@@ -111,7 +111,7 @@ Based on this test we can see that to complete the 1000 requests my PHP API took
 
 The reason I'm going to test Node.js now is because this is the language that all the other CMS platforms are written in so this will give us a rough comparison of something like Strapi vs. Wordpress (not a direct comparison on account of how complicated their platforms are and which databases they might have employed). Again to keep things fair and to compare apples with apples I've used the same database but this time I created a Node.js HTTP server using Express (*view the code [here](https://github.com/JordanRobo/API_Speed_Tests/blob/main/Node/index.js)*). After I ran the test all I can say is ***"Wow!"***
 
-<img src="/home/jordan/Desktop/projects/Portfolio/src/posts/images/node_vs_php.jpg" style="zoom:67%;" />
+![Node Vs. PHP](/images/node_vs_php.webp)
 
 The results really speak for them self, based off this test Node.js is the clear winner.
 
@@ -129,7 +129,7 @@ The reason for choosing Rust is because of my fascination in it and my wanting t
 
 To put Rust's performance to the test, I created the same simple HTTP API as before (code available [here](https://github.com/JordanRobo/API_Speed_Tests/blob/main/Rust/src/main.rs)), utilizing the Actix Web framework and the Diesel ORM for PostgreSQL. Running the same Apache Bench test with 1000 requests and 100 concurrent connections, the results were astounding (*Note I've only compared Node.js and Rust in the graph as it was almost impossible to see Rust's performance*):
 
-<img src="/home/jordan/Desktop/projects/Portfolio/src/posts/images/rust_vs_node.jpg" style="zoom:67%;" />
+![Rust Vs. Node](/images/rust_vs_node.webp)
 
 Rust's API blew the competition out of the water, with an average time per request of just **0.022 ms**, a transfer rate of **6,488.49 kb/sec**, and the longest request taking a mere **3 ms**. When compared side-by-side with PHP and Node.js, the difference is stark:
 
