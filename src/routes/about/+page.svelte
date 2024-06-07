@@ -35,8 +35,10 @@
             </div>
         </div>
         <div class="w-3/5">
-            <p class="mt-4">I am a budding Full Stack Developer with a strong foundation in both front-end and back-end technologies, ready to bring dynamic solutions to modern web challenges. With expertise in HTML, CSS, JavaScript, and a passion for creating seamless user experiences, I am transitioning my career towards the innovative world of software development.</p>
-            <p class="mt-4">As I pivot my career path, my diverse background in digital marketing, content creation, and team leadership provides a unique perspective to software development. This cross-functional expertise allows me to approach development projects with an end-user focus, ensuring that the software I help create is not only functional but also user-friendly and market-ready.</p>
+            <p class="mt-4">Hey there! I'm a Full Stack Developer with a strong foundation in both front-end and back-end technologies. I'm excited to bring dynamic solutions to modern web challenges and make people's lives easier and more efficient through the power of <span class="font-bold italic underline underline-offset-8 decoration-secondary">code!</span>✨</p>
+            <p class="mt-4">With expertise in HTML, CSS, and JavaScript, a tenacious drive to learn and a passion for creating seamless user experiences, I'm transitioning my career towards the innovative world of software development. Why? Because I firmly believe that technology should simplify our lives, <span class="font-bold italic underline underline-offset-8 decoration-secondary">not complicate</span> them. </p>
+            <p class="mt-4">Coding isn't just a career choice for me; it's a way to make a real difference in people's lives. By creating efficient, intuitive, and powerful software solutions, I'm able to streamline processes, automate tasks, and ultimately, give people more time to focus on what matters most.</p>
+            <p class="mt-4">If you're looking for a developer who's committed to creating software that not only works flawlessly but also enhances the user experience, I'm your guy. <span class="font-bold italic underline underline-offset-8 decoration-secondary">Let's build something amazing together!</span> 🚀</p>
         </div>
     </div>
 
@@ -46,13 +48,13 @@
         </div>
         <div class="w-3/5 space-y-4">
             {#each workExp as job}
-                <div class="relative border border-neutral space-y-1">
+                <div class="relative border border-neutral space-y-1 transition duration-300 ease-in-out opacity-50 hover:opacity-100">
                     <span class="absolute h-full w-full"></span>
                     <div class="p-2">
                         <p class="text-sm text-white/50">{job.start_date} - {job.end_date}</p>
                         <h1 class="text-xl font-bold">{job.position}</h1>
                         <p class="text-sm text-secondary">{job.company}</p>
-                        <p class="mt-2">{job.description}</p>
+                        <p class="text-sm mt-2">{job.description}</p>
                     </div>
                 </div>
             {/each}

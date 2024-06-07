@@ -6,14 +6,20 @@
 	import { Email } from "$lib";
     
     export let data: PageData;
-
+    console.log(data);
 </script>
+
+<svelte:head>
+    <title>Jordan's Website</title>
+    <meta name="description" content="A collection of posts and information by and about Jordan Robinson." />
+</svelte:head>
 
 <div class="p-4 mt-8">
     <h1 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Hey there, I'm <span class="text-secondary">Jordan!</span></h1>
-    <p class="mt-4">Welcome to my website! It's an honour to have you visit my little pocket of the internet and I hope you enjoy your visit. This site is a collection of information about myself and what projects I'm working on or have worked on. </p>
-    
+    <p class="mt-4">Welcome to my website! It's an honour to have you visit my little pocket of the internet and I hope you enjoy your visit. This site is a collection of information about myself and what projects I'm working on or have worked on.</p>
+    <p class="mt-4">Have a browse and maybe read an article or two. I hope you enjoy what you find.</p>
 </div>
+
 <div class="grid grid-cols-3 border border-neutral divide-x divide-neutral text-accent">
     <div class="p-4">
         <a href="https://github.com/JordanRobo" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
@@ -64,13 +70,23 @@
             </a>
         </div>
     </div>
-    <a href="/" class="p-4">
-        <div class="border border-neutral p-4 space-y-1">
-            <h1 class="text-xl font-bold">Name</h1>
-            <p class="pb-1">description</p>
-            <div class="badge badge-outline badge-secondary">language</div>
-        </div>
-    </a>
+    {#await data.projects}
+        <p>Loading project...</p>
+    {:then projects}
+        <a href="{projects.html_url}" class="p-4">
+            <div class="border border-neutral p-4 space-y-2">
+                <h1 class="text-xl font-bold">{projects.name}</h1>
+                <p class="pb-1">{projects.description}</p>
+                <div class="space-x-2">
+                    {#each Object.entries(projects.languages).sort((a, b) => b[1] - a[1]).slice(0, 3) as [language, bytes]}
+                        <span class="badge badge-outline badge-secondary">{language}</span>
+                    {/each}
+                </div>
+            </div>
+        </a>
+    {:catch error}
+        <p>Error fetching project: {error.message}</p>
+    {/await}
 </div>
 
 <div class="p-4 mt-8 space-y-4">
