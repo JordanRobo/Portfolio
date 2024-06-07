@@ -48,7 +48,7 @@
         </div>
         <div class="w-3/5 space-y-4">
             {#each workExp as job}
-                <div class="relative border border-neutral space-y-1 transition duration-300 ease-in-out opacity-50 hover:opacity-100">
+                <div class="relative border border-neutral space-y-1 transition duration-300 ease-in-out opacity-70 hover:opacity-100">
                     <span class="absolute h-full w-full"></span>
                     <div class="p-2">
                         <p class="text-sm text-white/50">{job.start_date} - {job.end_date}</p>

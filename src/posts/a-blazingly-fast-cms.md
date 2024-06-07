@@ -1,16 +1,16 @@
 ---
 title: A Blazingly Fast CMS
 description: The only way to ensure something is done right is to do it yourself!
-date: '2024-05-31'
+date: '2024-06-07'
 categories:
   - personal
-published: false
+published: true
 
 ---
 
 # A Blazingly Fast CMS
 
-If you have read my last post then you'll be well aware of my feelings towards the current headless CMS options currently out there. I want to start by saying there is absolutely nothing wrong with any of them and I'm definitely not trying to imply they are terrible services. What I am saying is that I absolutely think they could be improved and you will be able to follow along as I do just that.
+If you have read my last post then you'll be well aware of my feelings towards the headless CMS options currently out there. I want to start by saying there is absolutely nothing wrong with any of them and I'm definitely not trying to imply they are terrible services. What I am saying is that I absolutely think they could be improved and you will be able to follow along as I do just that.
 
 ## Let's Start!
 
