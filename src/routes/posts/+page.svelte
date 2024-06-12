@@ -10,7 +10,7 @@
         <div><h2 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Posts</h2></div>
     </div>
 	{#each data.posts as post}
-        <a href={`/posts/` + post.slug} class="p-4 group transition duration-300 ease-in-out opacity-70 hover:opacity-100">
+        <a href={`/posts/` + post.slug} class="p-4 group transition duration-300 ease-in-out md:opacity-70 hover:opacity-100">
             <div class="border border-neutral p-4 space-y-1">
                 <p class="">{formatDate(post.date)}</p>
                 <h1 class="text-xl font-bold">{post.title}</h1>

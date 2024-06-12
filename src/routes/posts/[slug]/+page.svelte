@@ -9,7 +9,7 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="contaner max-w-3xl mx-auto my-8">
+<article class="contaner max-w-3xl mx-auto my-4 p-4">
 	<div class="prose prose-main prose-invert mx-auto">
 		<svelte:component this={data.content} />
 	</div>

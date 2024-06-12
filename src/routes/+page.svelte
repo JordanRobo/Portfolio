@@ -19,7 +19,7 @@
     <p class="mt-4">Have a browse and maybe read an article or two. I hope you enjoy what you find.</p>
 </div>
 
-<div class="grid grid-cols-3 border border-neutral divide-x divide-neutral text-accent">
+<div class="grid grid-cols-1 md:grid-cols-3 md:border border-neutral divide-x divide-neutral text-accent">
     <div class="p-4">
         <a href="https://github.com/JordanRobo" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
             <GithubLogo class="mr-2 " />
@@ -72,7 +72,7 @@
     {#await data.projects}
         <p>Loading project...</p>
     {:then projects}
-        <a href="{projects.html_url}" class="p-4 transition duration-300 ease-in-out opacity-70 hover:opacity-100">
+        <a href="{projects.html_url}" class="p-4 group transition duration-300 ease-in-out md:opacity-70 hover:opacity-100">
             <div class="border border-neutral p-4 space-y-2">
                 <h1 class="text-xl font-bold">{projects.name}</h1>
                 <div class="space-x-2">
@@ -102,7 +102,7 @@
         </div>
     </div>
 	{#each data.posts as post}
-        <a href={`/posts/` + post.slug} class="p-4 group transition duration-300 ease-in-out opacity-70 hover:opacity-100">
+        <a href={`/posts/` + post.slug} class="p-4 group transition duration-300 ease-in-out md:opacity-70 hover:opacity-100">
             <div class="border border-neutral p-4 space-y-1">
                 <p class="">{formatDate(post.date)}</p>
                 <h1 class="text-xl font-bold">{post.title}</h1>
