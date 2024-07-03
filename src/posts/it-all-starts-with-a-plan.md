@@ -10,3 +10,4 @@ published: false
 
 # It All Starts With a Plan
 
+Now, before I open up VS Code and start typing out code, I need to plan what I want to build and practice setting some goals for myself.
