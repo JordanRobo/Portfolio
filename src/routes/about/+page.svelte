@@ -18,7 +18,7 @@
     onMount(() => {
         const elements = document.querySelectorAll('.transition-on-scroll');
 
-        const callback = (entries, observer) => {
+        const callback = (entries: any[], observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('opacity-100');
