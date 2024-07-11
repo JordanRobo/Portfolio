@@ -19,14 +19,14 @@
     <p class="mt-4">Have a browse and maybe read an article or two. I hope you enjoy what you find.</p>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-3 md:border border-neutral divide-x divide-neutral text-accent">
-    <div class="p-4">
+<div class="flex flex-row w-full md:border border-neutral divide-x divide-neutral text-accent">
+    <div class="p-4 grow">
         <a href="https://github.com/JordanRobo" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
             <GithubLogo class="mr-2 " />
             <span class="bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">@JordanRobo</span>
         </a>
     </div>
-    <div class="p-4">
+    <div class="p-4 grow">
         <a href="https://www.linkedin.com/in/jordancr/" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
             <LinkedinLogo class="mr-2" />
             <span class="bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">@jordancr</span>
@@ -106,6 +106,9 @@
             <div class="border border-neutral p-4 space-y-1">
                 <p class="">{formatDate(post.date)}</p>
                 <h1 class="text-xl font-bold">{post.title}</h1>
+                {#each post.categories as tag}
+                    <span class="badge badge-outline badge-secondary mr-2">{tag}</span>
+                {/each}
                 <p class="">{post.description}</p>
                 <div class="flex items-center group text-accent transition-all duration-300 ease-in-out">
                     <span class="bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out text-sm">read post</span>
@@ -114,4 +117,5 @@
             </div>
         </a>
 	{/each}
+
 </div> 

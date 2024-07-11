@@ -3,11 +3,9 @@ title: Hello World!
 description: Let me introduce myself and the purpose of this website.
 date: '2024-05-31'
 categories:
-  - personal
+  - Personal Journey
 published: true
 ---
-
-# Hello World!
 
 Let me introduce myself and why I've decided to start writing these posts. My name is Jordan and I've decided to learn coding in the hopes of becoming a developer. At the time of writing this I'm 28 years old and my working history has primarily been marketing and hospitality. So why the change to IT and development? Well to answer that it helps to know two things about me;
 

@@ -4,7 +4,7 @@
     let phoneNumber = '';
 
     onMount(() => {
-        const encryptedNumber = 'MDQ5MiA5MzQgNTAy'; // Replace with your encrypted phone number
+        const encryptedNumber = 'MDQ5MiA5MzQgNTAy'; 
         phoneNumber = atob(encryptedNumber);
     });
 

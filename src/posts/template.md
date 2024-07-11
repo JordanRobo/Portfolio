@@ -1,9 +1,9 @@
 ---
 title: 
 description: 
-date: '2024-06-06'
+date: '2024-mm-dd'
 categories:
-  - personal
+  - 
 published: false
 
 ---

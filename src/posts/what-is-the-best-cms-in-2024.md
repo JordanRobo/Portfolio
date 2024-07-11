@@ -3,11 +3,10 @@ title: What is the best CMS in 2024?
 description: My research into a suitable content management system replacement for Wordpress.
 date: '2024-06-06'
 categories:
-  - personal
+  - Research & Learning
+  - Web Development
 published: true
 ---
-
-# What is the best CMS in 2024?
 
 I recently started creating a website for my Dad's business which he had previously built using Wordpress and Elementor. The reason I was tasked with the rebuild was predominantly because his biggest qualm with the current configuration was how poor the performance was. He had mentioned that he'd previously paid someone on Fiverr to speed it up for him and, to their credit, they did manage to do this, briefly. It wasn't long until yet again his site was under performing, so it was when he mentioned this to me one day that I suggested using a Javascript framework and a headless Content Management System (CMS) to speed things up. He seemed intrigued by this notion however the main reason he didn't want to switch was because he enjoyed and was familiar with the Wordpress User Interface. This was a fair response however I wasn't going to leave him with sub par website performance so I begun researching.
 

@@ -47,7 +47,7 @@
                     <Mobile class="text-white/50 group-hover:text-white/90 mr-2 h-4 w-4"/>
                     <span class="text-sm text-white/50 group-hover:text-white/90 bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"><PhoneNumber /></span>
                 </a>
-                <a href="mailto:jordan@stateot.art" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
+                <a href="mailto:hello.world@jordanrobo.xyz" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
                     <EnvelopeOpen class="text-white/50 group-hover:text-white/90 mr-2 h-4 w-4"/>
                     <span class="text-sm text-white/50 group-hover:text-white/90 bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"><Email /></span>
                 </a>

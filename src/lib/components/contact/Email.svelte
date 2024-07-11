@@ -4,8 +4,8 @@
     let emailAddress = '';
 
     onMount(() => {
-        const encryptedNumber = 'am9yZGFuQHN0YXRlb3QuYXJ0'; // Replace with your encrypted phone number
-        emailAddress = atob(encryptedNumber);
+        const encryptedEmail = 'aGVsbG8ud29ybGRAam9yZGFucm9iby54eXo='; 
+        emailAddress = atob(encryptedEmail);
     });
 
 </script>
