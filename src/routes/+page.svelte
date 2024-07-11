@@ -19,7 +19,7 @@
     <p class="mt-4">Have a browse and maybe read an article or two. I hope you enjoy what you find.</p>
 </div>
 
-<div class="flex flex-row w-full md:border border-neutral divide-x divide-neutral text-accent">
+<div class="flex flex-col md:flex-row w-full md:border border-neutral divide-x divide-neutral text-accent">
     <div class="p-4 grow">
         <a href="https://github.com/JordanRobo" target="_blank" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
             <GithubLogo class="mr-2 " />
@@ -33,7 +33,7 @@
         </a>
     </div>
     <div class="p-4">
-        <a href="mailto:jordan@stateot.art" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
+        <a href="mailto:hello.world@jordanrobo.xyz" class="flex items-center group text-accent transition-all duration-300 ease-in-out">
             <EnvelopeOpen class="mr-2" />
             <span class="bg-left-bottom bg-gradient-to-r from-secondary to-secondary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"><Email /></span>
         </a>
@@ -61,7 +61,7 @@
 </div>
 
 <div class="p-4 mt-8 space-y-4">
-    <div class="flex justify-between">
+    <div class="flex flex-col md:flex-row justify-between gap-2">
         <div><h2 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Current Project</h2></div>
         <div>
             <a href="https://github.com/JordanRobo?tab=repositories" target="_blank" class="flex items-center group transition-all duration-300 ease-in-out text-accent/50 hover:text-accent">
@@ -76,7 +76,7 @@
             <div class="border border-neutral p-4 space-y-2">
                 <h1 class="text-xl font-bold">{projects.name}</h1>
                 <div class="space-x-2">
-                    {#each Object.entries(projects.languages).sort((a, b) => b[1] - a[1]).slice(0, 3) as [language, bytes]}
+                    {#each Object.entries(projects.languages).sort((a, b) => b[1] - a[1]).slice(0, 3) as [language]}
                         <span class="badge badge-outline badge-secondary">{language}</span>
                     {/each}
                 </div>
@@ -93,7 +93,7 @@
 </div>
 
 <div class="p-4 mt-8 space-y-4">
-    <div class="flex justify-between">
+    <div class="flex flex-col md:flex-row justify-between gap-2">
         <div><h2 class="text-2xl font-bold underline underline-offset-8 decoration-primary">Recent Posts</h2></div>
         <div>
             <a href="/posts" class="flex items-center group transition-all duration-300 ease-in-out text-accent/50 hover:text-accent">

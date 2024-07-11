@@ -15,22 +15,6 @@
 
     let workExp: WorkExp[] = Work;
 
-    onMount(() => {
-        const elements = document.querySelectorAll('.transition-on-scroll');
-
-        const callback = (entries: any[], observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('opacity-100');
-                } else {
-                    entry.target.classList.remove('opacity-100');
-                }
-            });
-        };
-
-        const observer = new IntersectionObserver(callback);
-        elements.forEach(element => observer.observe(element));
-    });
 
 </script>
 
@@ -67,7 +51,7 @@
         </div>
         <div class="w-full md:w-3/5 space-y-4">
             {#each workExp as job}
-                <div class="relative border border-neutral space-y-1 transition duration-1000 md:duration-300 ease-in-out opacity-50 md:opacity-70 hover:opacity-100 transition-on-scroll">
+                <div class="relative border border-neutral space-y-1 transition duration-1000 md:duration-300 ease-in-out md:opacity-70 hover:opacity-100 transition-on-scroll">
                     <span class="absolute h-full w-full"></span>
                     <div class="p-2">
                         <p class="text-sm text-white/50">{job.start_date} - {job.end_date}</p>
