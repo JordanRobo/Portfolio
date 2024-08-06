@@ -3,8 +3,7 @@
     import { Databases, Languages, WebTechnologies } from "$lib/components/about";
     import Work from "$lib/work_experience.json";
     import { PhoneNumber, Email } from "$lib";
-    import { onMount } from 'svelte';
-    
+
     interface WorkExp {
         company: string;
         position: string;
@@ -14,7 +13,6 @@
     }
 
     let workExp: WorkExp[] = Work;
-
 
 </script>
 
@@ -72,7 +70,7 @@
             <div class="flex flex-row my-2 gap-8">
                 <div>
                     <div class="flex flex-row">
-                        <h2 class="text font-bold underline underline-offset-8 decoration-secondary">Languages & Frameworks</h2>
+                        <h2 class="text font-bold underline underline-offset-8 decoration-secondary">Languages</h2>
                     </div>
                     <Languages />   
                 </div>
@@ -80,7 +78,7 @@
             <div class="flex flex-row gap-8">
                 <div>
                     <div class="flex flex-row">
-                        <h2 class="text font-bold underline underline-offset-8 decoration-secondary">Web Technologies</h2>
+                        <h2 class="text font-bold underline underline-offset-8 decoration-secondary">Web Technologies & Frameworks</h2>
                     </div>
                     <WebTechnologies />   
                 </div>
@@ -88,7 +86,7 @@
             <div class="flex flex-row gap-8">
                 <div>
                     <div class="flex flex-row">
-                        <h2 class="text font-bold underline underline-offset-8 decoration-secondary">Databases</h2>
+                        <h2 class="text font-bold underline underline-offset-8 decoration-secondary">Databases & BaaS</h2>
                     </div>
                     <Databases />   
                 </div>
