@@ -1,5 +1,5 @@
 ---
-title: Forms Follow Function
+title: Forms Follow Function: A Fresh Perspective on CMS Development
 description: Today I had an idea. Is it a good idea? Great question, I'm not sure. Let's explore whether this has any merit or if it'll just lead to a huge mess later on.
 date: '2024-09-11'
 categories:
@@ -8,8 +8,6 @@ categories:
 published: true
 
 ---
-
-# Forms Follow Function: A Fresh Perspective on CMS Development
 
 Well, well, well. It's been a minute since I've last worked on my CMS project, Mercury. But now, I'm back! And I'm looking at Mercury with fresh eyes.
 
