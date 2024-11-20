@@ -13,8 +13,6 @@
 	const y = 10;
 	const transitionIn = { easing: cubicOut, y, duration, delay };
 	const transitionOut = { easing: cubicIn, y: -y, duration };
-
-	console.log($page);
 </script>
 
 <div class="container max-w-3xl mx-auto">

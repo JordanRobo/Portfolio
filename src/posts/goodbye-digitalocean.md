@@ -1,11 +1,12 @@
 ---
 title: Goodbye DigitalOcean
-description: Tired of paying for hosting? Learn how I replaced my $5/month hosting plan with a $500 Raspberry Pi cluster, tackled CGNAT nightmares, and discovered that sometimes the most expensive solution is actually the best learning opportunity. Bonus: Bezos gets one less yacht.
+description: Tired of paying for hosting? Learn how I replaced my $5/month hosting plan with a $500 Raspberry Pi cluster.
 date: '2024-11-20'
 categories:
   - DevOps
   - Research & Learning
 published: true
+
 ---
 
 I recently decided that enough was enough! I'm tired of paying the man $5 a month to run my very basic website, not to mention how much it costs every time I decide I want to start up a new service. To combat this I instead convinced myself that spending close to $500 was far more favourable, not to mention a good chunk off my time...

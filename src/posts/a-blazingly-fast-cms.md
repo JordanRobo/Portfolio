@@ -6,7 +6,6 @@ categories:
   - Backend Development
   - Research & Learning
 published: true
-
 ---
 
 If you have read my last post then you'll be well aware of my feelings towards the headless CMS options currently out there. I want to start by saying there is absolutely nothing wrong with any of them and I'm definitely not trying to imply they are terrible services. What I am saying is that I absolutely think they could be improved and you will be able to follow along as I do just that.
@@ -59,7 +58,7 @@ Completed 1000 requests
 Finished 1000 requests
 
 
-Server Software:        
+Server Software:
 Server Hostname:        localhost
 Server Port:            8000
 
@@ -98,13 +97,13 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-There is a lot of information to take in here however, we are only interested in a few key measurements,  "Time per request", "Transfer Rate" & the "Longest Request" time.  These key measurements will tell us; 
+There is a lot of information to take in here however, we are only interested in a few key measurements,  "Time per request", "Transfer Rate" & the "Longest Request" time.  These key measurements will tell us;
 
 1. How much data can be sent at a time.
 2. How quickly each request is being completed on average.
 3. How long you would likely have to wait until your web page loads.
 
-Based on this test we can see that to complete the 1000 requests my PHP API took an average of **5.437 ms** per request, was able to send **36.64 kb/sec** and it's longest request took **557 ms**. So is this good or is that bad? Well at the moment who knows, but we'll know in a second as soon as we compare it to something else and next up we'll test Node.js. 
+Based on this test we can see that to complete the 1000 requests my PHP API took an average of **5.437 ms** per request, was able to send **36.64 kb/sec** and it's longest request took **557 ms**. So is this good or is that bad? Well at the moment who knows, but we'll know in a second as soon as we compare it to something else and next up we'll test Node.js.
 
 ## Node.js Testing
 
@@ -120,7 +119,7 @@ No.
 
 Why? Because everyone else is using Node.js and I'm not here to create yet another JavaScript CMS. I want to build something better, something faster!
 
-So what language am I going to use then? 
+So what language am I going to use then?
 
 ## Rust Testing
 
