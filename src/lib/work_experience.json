@@ -1,30 +1,30 @@
 [
-    {
-        "company": "Freelance Work",
-        "position": "Developer",
-        "start_date": "Jan 2020",
-        "end_date": "Present",
-        "description": "As a skilled web developer, I craft visually appealing and user-friendly websites for clients across various industries using HTML5, CSS, and JavaScript. My keen eye for detail and storytelling abilities also allow me to produce captivating short films for promotional content. Additionally, I implement effective SEO strategies to improve organic traffic and search engine rankings for clients' websites, while collaborating closely with them to develop cohesive brand identities and marketing strategies."
-    },
-    {
-        "company": "Ray White Preston & Northcote",
-        "position": "Head of Marketing",
-        "start_date": "Nov 2022",
-        "end_date": "Nov 2023",
-        "description": "As a marketing professional with a passion for coding, I exceled in developing web applications using HTML5, CSS, JavaScript, SvelteKit, and Node.js. I successfully managed and optimised SEO and WordPress pages, while also leveraging my skills in graphic design, videography, and photography to create engaging content. My technical expertise, combined with my experience in project management, allowed me to deliver high-quality results in a fast-paced environment."
-    },
-    {
-        "company": "Ines Wine Bar",
-        "position": "Bar Manager",
-        "start_date": "Mar 2022",
-        "end_date": "Nov 2022",
-        "description": "As a leader, I provided comprehensive staff training to ensure a high level of service excellence and product knowledge, resulting in improved customer satisfaction and repeat business. I effectively managed ordering and monitoring of stock, maintaining optimal inventory levels while minimizing waste and adhering to budgetary constraints. My ability to lead and motivate a team of staff, fostering a positive work environment and providing constructive feedback, enhanced overall performance and productivity."
-    },
-    {
-        "company": "Food Focus",
-        "position": "Marketing Assistant",
-        "start_date": "Mar 2021",
-        "end_date": "Feb 2022",
-        "description": "Maintained and updated the company website using WordPress, prioritising user experience and mobile optimisation. I also orchestrated email marketing campaigns with engaging content and visually appealing layouts to drive customer engagement and sales. Leveraging my videography skills, I produced high-quality content for TV ads and social media promotions. Further showcasing my versatility, I coordinated the launch campaign for a new bar area, managing design aspects and ensuring a successful introduction to customers."
-    }
+	{
+		"company": "Freelance Work",
+		"position": "Developer",
+		"start_date": "Jul 2023",
+		"end_date": "Present",
+		"description": "In my role as a Full-stack Developer at State of the Art, I led the migration of WordPress websites to SvelteKit and Headless CMS solutions, resulting in improved performance and maintainability. I also designed and developed a custom CMS (Mercury) using Rust, showcasing my advanced programming skills. Additionally, I collaborated closely with clients to conceptualise and execute diverse web projects, ensuring a cohesive digital presence for clients."
+	},
+	{
+		"company": "Ray White Preston & Northcote",
+		"position": "Head of Marketing",
+		"start_date": "Nov 2022",
+		"end_date": "Nov 2023",
+		"description": "As a marketing professional with a passion for coding, I exceled in developing web applications using HTML5, CSS, JavaScript, SvelteKit, and Node.js. I successfully managed and optimised SEO and WordPress pages, while also leveraging my skills in graphic design, videography, and photography to create engaging content. My technical expertise, combined with my experience in project management, allowed me to deliver high-quality results in a fast-paced environment."
+	},
+	{
+		"company": "Ines Wine Bar",
+		"position": "Bar Manager",
+		"start_date": "Mar 2022",
+		"end_date": "Nov 2022",
+		"description": "As a leader, I provided comprehensive staff training to ensure a high level of service excellence and product knowledge, resulting in improved customer satisfaction and repeat business. I effectively managed ordering and monitoring of stock, maintaining optimal inventory levels while minimizing waste and adhering to budgetary constraints. My ability to lead and motivate a team of staff, fostering a positive work environment and providing constructive feedback, enhanced overall performance and productivity."
+	},
+	{
+		"company": "Food Focus",
+		"position": "Marketing Assistant",
+		"start_date": "Mar 2021",
+		"end_date": "Feb 2022",
+		"description": "I was responsible for maintaining and updating the company's WordPress website to ensure current content and optimal performance. I also managed email marketing campaigns to improve customer engagement and reach. Additionally, I produced videos for social media and TV advertising to enhance brand visibility across platforms."
+	}
 ]

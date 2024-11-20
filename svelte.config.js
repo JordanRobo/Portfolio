@@ -1,11 +1,11 @@
-import adapter from "svelte-adapter-bun";
+import adapter from 'svelte-adapter-bun';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import { mdsvex } from 'mdsvex'
+import { mdsvex } from 'mdsvex';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
-	extensions: ['.md'],
-}
+	extensions: ['.md']
+};
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
